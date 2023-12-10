@@ -215,9 +215,200 @@
 // console.log("sekund = ", N % 60);
 
 // #25
-let N = +prompt("N sekund ni kiriting: ");
-let s = (N - (N % 3600)) / 3600;
-let d = (N % 3600 - (N % 60)) / 60;
-console.log("soat = ", s)
-console.log("daqiqa = ", d);
-console.log("sekund = ", N % 60);
+// let N = +prompt("N sekund ni kiriting: ");
+// let s = (N - (N % 3600)) / 3600;
+// let d = (N % 3600 - (N % 60)) / 60;
+// console.log("soat = ", s)
+// console.log("daqiqa = ", d);
+// console.log("sekund = ", N % 60);
+
+// ikkinchi dars uy ishi
+
+// #1
+// let a = +prompt("a ni kiriting: ");
+// let res = a % 2 == 0;
+// console.log(res);
+// #2
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let res = a >= 0 || b <= -2;
+// console.log(res);
+
+// #3
+// let a = +prompt("a ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let res = b > a && b < c;
+// console.log(res);
+// #4
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let res = a % 2 == 1 && b % 2 == 1;
+// console.log(res);
+
+// #5
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let res = a % 2 == 1 || b % 2 == 1;
+// console.log(res);
+
+// #6
+// let a = +prompt("a ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let res = b > 0 && a > 0 && c > 0;
+// console.log(res);
+
+// #7
+
+// let a = +prompt("a ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let res = b > 0 || a > 0 || c > 0;
+// console.log(res);
+
+// #8
+// let a = +prompt("a ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let res = b > 0 && a > 0 || c > 0;
+// console.log(res);
+// #10
+// let ab = +prompt("ab ni kiriting: ");
+// let res = ab % 2 == 0 && ab > 9 && ab < 100;
+// console.log(res);
+
+// #11
+// let abc = +prompt("abc ni kiriting: ");
+// let res = abc % 2 == 1 && abc > 99 && abc < 1000;
+// console.log(res);
+// #12
+// let a = +prompt("a ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let res = a == b * -1 || a == c * -1 || b == c * -1;
+// console.log(res);
+// #13
+// let abc = +prompt("abc ni kiriting: ");
+// let a = Math.trunc(abc / 100);
+// let c = abc % 10;
+// let b = ((abc % 100) - c) / 10;
+// let res = b - a == c - b;
+// console.log(res);
+// #14
+
+// let abc = +prompt("abc ni kiriting: ");
+// let a = Math.trunc(abc / 100);
+// let c = abc % 10;
+// let b = ((abc % 100) - c) / 10;
+// let res = b - a == c - b && b - c == a - b;
+// console.log(res);
+// #15
+// let abc = +prompt("abc ni kiriting: ");
+// let a = Math.trunc(abc / 100);
+// let c = abc % 10;
+// let b = ((abc % 100) - c) / 10;
+// let res = a == c;
+// console.log(res);
+
+// operatorlar
+// #1
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let Y1 = -b / 2;
+// let Y2 = Math.pow(a, 2) + Math.pow(b, 2);
+// let Y = Y1 * Y2;
+// console.log(Y);
+// #2
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let d = +prompt("d ni kiriting: ");
+// let Y1 = Math.pow((a + b) / (c + d), 2);
+// let Y2 = Math.pow(b, 2);
+// let Y = Y1 + Y2;
+
+// console.log(Y);
+// #3
+// let a = +prompt("a ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let d = +prompt("d ni kiriting: ");
+// let Y1 = Math.pow(a, d);
+// let Y2 = (4 * Math.pow(c, 2)) / 3;
+// let Y = 2 * (Y1 + Y2);
+// console.log(Y);
+// #4
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let d = +prompt("d ni kiriting: ");
+// let y1 = 1 / Math.pow(a, 2);
+// let y2 = Math.pow(b / 10, 3);
+// let y3 = Math.pow(c + d, 2);
+// let y = y1 * y2 * y3;
+// console.log(y);
+// #5
+
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let d = +prompt("d ni kiriting: ");
+// let y1 = Math.pow(a / b - 1, 2);
+// let y2 = Math.pow(c / (d - 1), 2);
+// let y = y1 / y2;
+// console.log(y);
+// #6
+
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let d = +prompt("d ni kiriting: ");
+// let y1 = a + b;
+// let y2 = c + d / (a + c);
+// let y = y1 / y2;
+// console.log(y);
+// #7
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let y1 = Math.pow(a + b + c, 2);
+// let y2 = Math.pow(a - b - c, 2);
+// let y = Math.sqrt(y1 - y2);
+// console.log(y);
+// #8
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let y1 = Math.pow(a, 2) + Math.pow(b, 2) + Math.pow(c, 2);
+// let y2 = a * b * c;
+// let y = y1 / y2;
+// console.log(y);
+// #9
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let d = +prompt("d ni kiriting: ");
+// let y1 = (a * Math.pow(d, 3)) / 3;
+// let y2 = (b * Math.pow(c, 2)) / 2;
+// let y = y1 + y2;
+// console.log(y);
+// #10
+// let a = +prompt("a ni kiriting: ");
+// let b = +prompt("b ni kiriting: ");
+// let c = +prompt("c ni kiriting: ");
+// let y1 = Math.abs(a / b - b / c);
+// let y2 = Math.pow(a + c, 1 / 4);
+// let y = y1 + y2;
+// console.log(y);
+//
+// chess start
+// #3
+// let x1 = +prompt("x1 ni kiriting: ");
+// let y1 = +prompt("y1 ni kiriting: ");
+// let x2 = +prompt("x2 ni kiriting: ");
+// let y2 = +prompt("y2 ni kiriting: ");
+// let res1 = x1 == x2 || Math.abs(x2 - x1) == 1 && y1 == y2 || Math.abs(y2 - y1) == 1;
+// let res2 = x2 >= 1 && x2 <= 8;
+// let res3 = y2>= 1 && y2<= 8;
+// let res = res1 && (res2 && res3);
+// console.log(res);
