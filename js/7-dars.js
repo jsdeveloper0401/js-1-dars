@@ -186,3 +186,28 @@
 // let s = getOddMin(res);
 // console.log(s);
 
+// function aLotOf(arr) {
+
+//     let count = [];
+//     let more = arr[0];
+//     let max = 1;
+
+//     for (let i = 0; i < arr.length; i++) {
+//         let el = arr[i];
+//         count[el] = (count[el] || 0) + 1;
+
+//         if (count[el] > max) {
+//             more = el;
+//             max = count[el];
+//         }
+//     }
+
+//     console.log("Eng ko'p qatnashgan element: " + more);
+//     console.log(" soni: " + max);
+// }
+
+
+// let arr = [2, 3, 2, 5, 6, 7, 2, 7, 2, 8, 9];
+// aLotOf(arr);
+
+// ===========================================================================
