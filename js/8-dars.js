@@ -373,3 +373,45 @@
 // }
 
 // point(str);
+
+// let str = "";
+// console.log(str);
+
+// let a = Infinity;
+// console.log(Infinity, typeof Infinity);
+// let a =0/0;
+// console.log(a);
+// let a = 0b10110;
+// console.log(0b10110); // binary
+// let a = 0o4762;
+// console.log(0o4762); // octal
+// let a = 0xa6b8f;
+// console.log(0xa6b8f); // hex
+
+// let a= 0.68;
+// console.log(0.68); // float
+// let a= 12e-5;
+// console.log(a);
+
+// let a= 123_456_789;
+// console.log(123_456_789); // numeric_separator
+
+// let selected = null;
+
+// console.log(typeof selected) // javascript bug
+
+// let a = Math.E;
+// console.log(a);
+
+// let a = Math.SQRT2;
+// console.log(a);
+
+// let a = Math.SQRT1_2;
+// console.log(a);
+let b1 = Boolean(12);
+
+console.log(b1);
+
+let b2 = Boolean(0);
+
+console.log(b2);
